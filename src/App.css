@@ -1,0 +1,268 @@
+.App{
+  background-color: whitesmoke;
+
+}
+.header{
+  background-color: black;
+  height: 60px;
+  display: flex;
+
+}
+
+.tiny{
+  display: flex;
+  align-items: left;
+  margin: 10px;
+}
+
+/* Best Website builders in the US */
+
+
+#title{
+  margin-left: 35px;
+  font-weight: 200;
+  
+}
+
+.svgs1{
+  margin-top: 11px;
+}
+
+
+.tiny-update{
+  display: flex;
+}
+
+#para{
+  margin: 10px;
+ 
+}
+
+.cards-container{
+  height: 19rem;
+  width: 80%;
+  margin: 0 auto; /* Add this to center the container horizontally */
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  background-color: white;
+}
+.cards-container a{
+ 
+  padding-bottom: 10px;
+}
+.cards04-container a{
+  padding-bottom: 10px;
+}
+.Advertising{
+  display: flex;
+}
+.texts{
+  color:white;
+  margin: 18px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.inputs{
+  height:37px;
+  margin: 10px;
+  width: 258px;
+  border-radius: 9px;
+  align-items: center;
+  margin-left: 24rem;
+
+
+
+}
+
+
+
+.searchbox{
+  display: flex;
+}
+
+.menu-container{
+  background-color: white;
+  width: 110px;
+  height: 36px;
+  display: flex;
+  border-radius: 8px;
+  
+  margin-left: 20px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-container p{
+  text-align: center;
+  
+}
+
+.menus{
+  display: flex;
+}
+
+.list{
+  display: flex;
+ 
+
+}
+.list li{
+  list-style: none;
+  margin: 10px;
+  color: black;
+}
+.list a{
+  text-decoration: none;
+}
+
+.svgs{
+  padding-top: 3px;
+
+  margin-top: 14px;
+}
+
+.home a{
+ padding-top: 4px;
+}
+
+.pic-container{
+  text-align: 'left';
+}
+.pic{
+  width: 141px;
+  height: 103px;
+  display: 'block';
+  margin-left: '0';
+  margin-right: 20px;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: column;
+}
+.desc-container{
+   width: 600px;
+  max-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.desc-container p{
+  margin-top: 0px;
+}
+.btn{
+  background-color: #1B88F4;
+  width: 200px;
+  height: 32px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 150px;
+  margin-left: 100px;
+  bottom: 10%;
+
+}
+.right-container{
+  display: flex;
+  flex-direction: column;
+
+  
+  
+}
+
+#desc04{
+  margin-top: -63px;
+}
+
+.stars{
+  position: absolute;
+  top: 0;
+  right:90px;
+  background-color: #F3F9FF; /* Just for visualization */
+  color: blue; /* Just for visualization */
+ 
+ 
+  width: 125px;
+  height: 120px;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.stars p{
+  text-align: center;
+  font-size: 17px;
+  padding: 0;
+}
+.stars h5{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.stars-svg{
+  padding: 0;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.piccontainer p{
+  margin-left: 45px;
+}
+
+#num{
+
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  align-items:start;
+  border-radius: 20px;
+  padding: 2px;
+  left:0;
+  position: absolute;
+  margin-left: -15px;
+  
+  /* Align the child to the extreme left */
+  top: 20%; /* Adjust top position as needed */
+  transform: translateY(-50%); /* Center the child vertically */
+  /* Set the height of the child */
+  background-color: white;
+  
+}
+
+.main-highlights{
+  background-color: antiquewhite;
+  height: 160px;
+}
+
+.cards04-container{
+  height: 410px;
+    width: 80%;
+  margin: 0 auto; /* Add this to center the container horizontally */
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.reasons{
+  display: flex;
+ 
+  flex-direction: row;
+   margin-right: 209px;
+}
+.reasons li{
+  list-style: none;
+  margin-right: 209px;
+}
+
+.reasons-svg{
+  margin-right: 5px;
+   
+}
