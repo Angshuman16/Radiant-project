@@ -2,6 +2,8 @@
 import './App.css';
 import Card from './Card';
 import Card04 from './Card04';
+import Deals from './Deals';
+import Footer from './Footer';
 import Header from './Header';
 import Heading2 from './Heading2';
 import Heading4 from './Heading4';
@@ -49,21 +51,37 @@ function App() {
        <Card04 num={4} head={"CDK Resposive Builder: "} desc={"An extensive library of widgets and apps, and detailed step-by-step guides"}highlight={[9.9,8.9,8.9]} highlighttext={["Building Responsive","Cool","Docs"]} reason={["Documents","Easy Use","Out of Box"]}stars={9.1} />
 
 
-      <h1>Related Deals you might like for</h1>
+      <h1 className='heading-5'>Related Deals you might like for</h1>
 
+     <div className='finalcontainer'>
+      <Deals/>
+
+      <Deals/>
+
+      <Deals/>
+
+
+      </div>
+
+      <div className='before-footer'>
        
+       <h1>Signup and get exclusive special deals</h1>
 
 
+       <input className='signup-input' type="text"></input>
+       <button className='signup-btn'>Sign Up</button>
+
+       </div>
 
 
-       
-      
+       <footer className='foot-container'>
 
-    
 
-    
+        <Footer />
+        
+       </footer>
 
-       
+
 
        
       </div>

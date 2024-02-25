@@ -19,8 +19,9 @@
 
 
 #title{
-  margin-left: 35px;
-  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
   
 }
 
@@ -266,3 +267,151 @@
   margin-right: 5px;
    
 }
+
+.deal-container{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 40%;
+  width:350px;
+  border-radius: 18px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-2{
+  background-color: #1B88F4;
+  border: none;
+  color: white;
+  text-align: center;
+  width: 286px;
+    height: 33px ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.finalcontainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefits{
+   background-color: whitesmoke;
+   height: 20px;
+   width: fit-content;
+   border-radius: 4px;
+   margin:8px;
+   padding: 4px;
+   align-items: center;
+}
+
+.benefits-container{
+  display: flex;
+  
+}
+
+.price-container{
+  display: flex;
+  margin-right: 4px;
+
+}
+.price-container p{
+  margin-right: 8px;
+  margin-top:0;
+  
+}
+
+#thirtynine{
+  
+  font-size: 20px;
+  height: 8px;
+  padding: 0;
+  
+}
+#fortysix{
+  font-size: 17px;
+ 
+  height: 8px;
+  padding: 0;
+  opacity: 0.4;
+}
+
+#off{
+  color: red;
+}
+.heading-5{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.before-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.before-footer h1{
+  margin-right: 10px;
+  width: 400px;
+  font-weight: 300;
+}
+
+.signup-input{
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+}
+.signup-btn{
+  height: 40px;
+  
+  background-color: #1B88F4;
+  color: white;
+  text-align: center;
+  border: none;
+  width: 80px;
+  border-radius: 0px 8px 8px 0px;
+}
+
+
+.foot-container{
+  width: 100vw;
+  height: 500px;
+  background: #212731;
+  
+}
+.foot{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin: 20%;
+  margin-top: 0px;
+}
+
+.cat{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.cat li{
+  list-style:none;
+  margin-bottom: 24px;
+  width: 250px;
+ 
+}
+#categories{
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+
