@@ -6,9 +6,16 @@ import './App.css';
 const Header = () => {
   return (
     <div className='header'>
-       
-    <input type="text" className="inputs">
+
+
+      
+     
+
+    <input type="text" className="inputs" placeholder='Search..'>
+    
+      
     </input>
+    
    
     
     <a href="kuchnai" className='texts'>Categories</a>

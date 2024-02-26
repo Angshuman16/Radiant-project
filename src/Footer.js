@@ -1,4 +1,5 @@
 import React from 'react'
+import Dropdown from './Dropdown'
 
 const Footer = () => {
   return (
@@ -24,10 +25,12 @@ const Footer = () => {
             <li>Contact</li>
             <li>Privacy Policy</li>
             <li>Terms of Service</li>
-            <li>categories</li>
+            <li>Categories</li>
             <li>About</li>
         </ul>
       </div>
+
+     <Dropdown />
 
     </div>
   )

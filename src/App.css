@@ -1,11 +1,26 @@
-.App{
+.App {
   background-color: whitesmoke;
+  
 
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .heading-5 {
+    font-size: 18px;
+  }
+  .App{
+    background-color: aliceblue;
+    width:100vw;
+  }
+}
 }
 .header{
   background-color: black;
   height: 60px;
   display: flex;
+  @media(min-width:768px) {
+    width: auto;
+  }
 
 }
 
@@ -15,6 +30,8 @@
   margin: 10px;
 }
 
+
+
 /* Best Website builders in the US */
 
 
@@ -22,6 +39,9 @@
   display: flex;
   align-items: center;
   justify-content:center ;
+  @media(min-width:768px) {
+    width: auto;
+  }
   
 }
 
@@ -50,6 +70,7 @@
   align-items: center;
   border-radius: 18px;
   background-color: white;
+
 }
 .cards-container a{
  
@@ -61,6 +82,7 @@
 .Advertising{
   display: flex;
 }
+
 .texts{
   color:white;
   margin: 18px;
@@ -70,7 +92,8 @@
 
 .inputs{
   height:37px;
-  margin: 10px;
+  margin-right: 10px;
+  margin-top: 8px;
   width: 258px;
   border-radius: 9px;
   align-items: center;
@@ -79,11 +102,27 @@
 
 
 }
+.inputs::placeholder{
+  padding: 5px;
+}
 
 
 
 .searchbox{
   display: flex;
+}
+
+@media (max-width:882px) {
+  .inputs{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .texts{
+    margin: 5px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
 }
 
 .menu-container{
@@ -381,37 +420,64 @@
   border-radius: 0px 8px 8px 0px;
 }
 
-
-.foot-container{
-  width: 100vw;
-  height: 500px;
+.foot-container {
+  width: 100%;
   background: #212731;
-  
-}
-.foot{
-  display: flex;
-  align-items: center;
-  justify-self: center;
-  margin: 20%;
-  margin-top: 0px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.cat{
+.foot {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.cat {
   color: white;
   display: flex;
   flex-direction: column;
-  
+  align-items: flex-start;
 
+  @media (max-width: 768px) {
+    margin-bottom: 20px;
+    align-items: center;
+  }
 }
-.cat li{
-  list-style:none;
-  margin-bottom: 24px;
+
+.cat li {
+  list-style: none;
+  margin-bottom: 12px;
   width: 250px;
- 
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
-#categories{
+
+#categories {
   font-size: 20px;
-  margin-top: 50px;
+  margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
 }
 
+.drop {
+  border: none;
+  color: white;
+  background: #212731;
+  font-size: 16px;
+  width: 100%;
 
+  @media (max-width: 768px) {
+    margin-top: 10px;
+  }
+}
