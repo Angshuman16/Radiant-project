@@ -10,11 +10,16 @@ const Header = () => {
 
       
      
-
+   <div className='inputs-container'>
     <input type="text" className="inputs" placeholder='Search..'>
+
     
       
     </input>
+
+    <button className='search-button'>Search</button>
+
+    </div>
     
    
     

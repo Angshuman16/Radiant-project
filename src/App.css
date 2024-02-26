@@ -208,6 +208,9 @@
   bottom: 10%;
 
 }
+.btn:hover{
+  background-color: blue;
+}
 .right-container{
   display: flex;
   flex-direction: column;
@@ -333,6 +336,9 @@
     margin-bottom: 8px;
 }
 
+.btn-2:hover{
+  background-color: blue;
+}
 .finalcontainer{
   display: flex;
   flex-direction: row;
@@ -420,6 +426,10 @@
   border-radius: 0px 8px 8px 0px;
 }
 
+.signup-btn:hover{
+  background-color: blue;
+}
+
 .foot-container {
   width: 100%;
   background: #212731;
@@ -480,4 +490,22 @@
   @media (max-width: 768px) {
     margin-top: 10px;
   }
+}
+
+.inputs-container{
+  display: flex;
+}
+.search-button{
+  background-color: #1B88F4;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+}
+.search-button:hover{
+  background-color: blue
 }
